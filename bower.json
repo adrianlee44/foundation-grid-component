@@ -1,0 +1,25 @@
+{
+  "name": "foundation-grid-component",
+  "version": "0.0.0",
+  "authors": [
+    "Adrian Lee <adrianlee44@gmail.com>"
+  ],
+  "description": "Grid component of ZURB Foundation",
+  "keywords": [
+    "css",
+    "grid",
+    "foundation",
+    "component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "*"
+  }
+}

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+// Do not include all the global html classes
+$include-html-classes: false;
+// Include grid classes
+$include-html-grid-classes: true;
+
+@import "foundation/components/grid";
