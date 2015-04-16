@@ -19,7 +19,5 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "foundation": "*"
-  }
+  "devDependencies": {}
 }
