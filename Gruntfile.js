@@ -6,7 +6,7 @@ module.exports = function(grunt) {
       dist: {
         options: {
           loadPath: [
-            'bower_components/foundation/scss'
+            'temp/scss'
           ]
         },
         files: {
@@ -17,6 +17,13 @@ module.exports = function(grunt) {
 
     clean: {
       sassCache: ['.sass-cache']
+    },
+
+    bump: {
+      options: {
+        files: ['package.json', 'bower.json'],
+        push: false
+      }
     }
   });
 
