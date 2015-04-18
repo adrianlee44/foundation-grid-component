@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;;;;;;;;AASA,wCAAyC;EACvC,WAAW,EAAE,KAAa;;AAiB5B,UAAW;EAAE,MAAM,EAAE,IAAI",
+"sources": ["temp/scss/foundation/components/_global.scss"],
+"names": [],
+"file": "grid.css"
+}
