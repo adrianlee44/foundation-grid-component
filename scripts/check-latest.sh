@@ -23,6 +23,6 @@ if [ $FOUNDATION_TAG != $TAG ]
     git commit -m "Build $FOUNDATION_TAG"
     git tag -a $FOUNDATION_TAG -m "Version $TAG_NUMBER"
 
-    git push origin $FOUNDATION_TAG
+    git push origin heads/$FOUNDATION_TAG
     git push --tags
 fi
